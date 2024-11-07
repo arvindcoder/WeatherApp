@@ -1,0 +1,76 @@
+/* General Styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #e0f7fa, #00acc1);
+    color: #333;
+}
+
+.weather-container {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.title {
+    color: #004d40;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Loading & Error States */
+h2 {
+    color: #00796b;
+    font-size: 1.5rem;
+}
+
+.error {
+    color: #d32f2f;
+}
+
+/* Weather Card */
+.weather-card {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.location {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #004d40;
+}
+
+.weather-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.weather {
+    font-size: 1.5rem;
+    color: #00796b;
+}
+
+.temperature {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #d32f2f;
+}
+
+.details {
+    font-size: 1rem;
+    color: #333;
+}
